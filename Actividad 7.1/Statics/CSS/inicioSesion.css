@@ -1,0 +1,60 @@
+body{
+  background-image: url("../Img/UniversidadLaBonita.jpg");
+}
+div#inicio_todos{
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  background-color: rgba(275, 275, 275);
+  background: rgba(275, 275, 275, 0.6);
+  width: 500px;
+  height: 250px;
+  border-radius: 3%;
+  box-shadow: 5px 5px 8px #000000;
+}
+div#inicio_usuarios{
+  position: absolute;
+  left: 12.5%;
+  top: 10%;
+  background-color: rgba(275, 275, 275);
+  background: rgba(275, 275, 275, 0.6);
+  width: 75%;
+  height: 75%;
+  border-radius: 3%;
+  box-shadow: 5px 5px 8px #000000;
+}
+div#sesion_iniciada{
+  position: absolute;
+  left: 12.5%;
+  top: 10%;
+  background-color: rgba(275, 275, 275);
+  background: rgba(275, 275, 275, 0.6);
+  width: 75%;
+  height: 100%;
+  border-radius: 3%;
+  box-shadow: 5px 5px 8px #000000;
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  color: #310F03;
+}
+form{
+  font-family: sans-serif;
+  margin: 3em;
+}
+h2{
+  padding: 2.5%;
+}
+p{
+  margin: 0% 2.5% 0%;
+}
+img{
+  height: 55%;
+  position: absolute;
+  left: 35%;
+}
+#regresar{
+  position: absolute;
+  bottom: 2.5%;
+}

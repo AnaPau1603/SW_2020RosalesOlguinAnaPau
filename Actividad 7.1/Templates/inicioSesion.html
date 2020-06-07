@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Universidad LaBonita</title>
+    <link rel="stylesheet" href="../Statics/CSS/inicioSesion.css">
+  </head>
+  <body>
+    <div id="inicio_todos">
+      <h1>Universidad LaBonita</h1>
+      <form action="../Dynamics/PHP/inicioSesion.php" method="post">
+        <fieldset>
+          <!--Validación de tipo de usuario-->
+          <legend>Indica tu tipo de usuario:</legend>
+          <select id="tipoUsuario" name="tipoUsuario">
+            <option id="tipoUsuario" value="profesor">Profesor</option>
+            <option id="tipoUsuario" value="funcionario">Funcionario</option>
+          </select>
+          <input type="submit" name="enviar" value="enviar">
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
