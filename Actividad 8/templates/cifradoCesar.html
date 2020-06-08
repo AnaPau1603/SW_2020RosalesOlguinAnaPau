@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cifrado César</title>
+    <link rel="icon" href="/css/master.css">
+  </head>
+  <body>
+    <div id="titulo">
+      <h1>Cifrado Cesar</h1>
+    </div>
+    <div id="form">
+      <form action="../dynamics/cifradoCesar.php" method="post">
+        <input type="text" name="texto" maxlength="100" title="No caractéres latinos" pattern="([A-Za-z\?¿,. ])*" required><br><br>
+        <input type="text" name="fuerzaEmpuje" title="Capacidad de desplazamiento: 1-7" pattern="[1-7]" required><br><br>
+        <input type="submit" name="enviar" value="enviar">
+      </form>
+    </div>
+  </body>
+</html>
